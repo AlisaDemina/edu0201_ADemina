@@ -1,0 +1,72 @@
+body{
+  background: url('../img/fon2.jpg');
+}
+.container.rounded{
+  background: rgb(211, 211, 211,.5);
+}
+.coffee-btn-group{
+  background: #000000;
+  height:60px;
+  color: #FFFFFF;
+  font-family: gabriola, fantasy;
+  font-size:3em;
+  border-radius:30px 30px 30px 30px;
+  font-weight: 600;
+  border: 3px solid #778899;
+}
+.coffee-btn-group>span{
+  vertical-align: top;
+}
+.coffee-btn{
+  width:60px !important;
+  height:60px;
+  background: #FFD700;
+  cursor:pointer;
+  border:2px solid #000000;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+}
+.coffee-btn:hover{
+  background: #696969;
+}
+.coffee-btn:active{
+  background: #FFFFFF;
+  box-shadow: inset 0 0 15px black;
+}
+#display{
+  width:100%;
+  height:150px;
+  background: #FFD700;
+  color:#000000;
+  border:5px groove #696969;
+}
+#change_box{
+  background:#778899;
+  width:95%;
+  height:200px;
+  border:4px groove #696969;
+  position:relative;
+}
+[src$='rub.png']{
+  width:60px;
+  cursor:pointer;
+  position:absolute;
+  left:0;
+  top:0;
+}
+[src$='rub.png']:hover{
+  filter:contrast(1.5); 
+}
+[src$='rub.png']:active{
+  filter:contrast(0.5); 
+}
+[src$='rub.jpg']:hover{
+  filter:contrast(1.5);
+  cursor:pointer;
+}
+#lock{
+  width:100%;
+  height:100vh;
+  position:absolute;
+  top:0;
+}
