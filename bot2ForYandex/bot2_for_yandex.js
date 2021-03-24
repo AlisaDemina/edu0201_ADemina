@@ -47,6 +47,6 @@ if(button!=undefined){
             break;
         }
     }
-    if(nextYandexPage && currentYandexPage<11) document.getElementByClassName("pager_item_kind_next")[0].click();
+    if(nextYandexPage && currentYandexPage<11) document.getElementsByClassName("pager_item_kind_next")[0].click();
     else if(currentYandexPage==11) location.href="https://yandex.ru/";
 }
